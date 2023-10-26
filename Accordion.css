@@ -1,0 +1,23 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .accordion-card {
+    margin-bottom: 1rem;
+  }
+  
+  .accordion-header {
+    cursor: pointer;
+    background-color: #b9d7f0;
+    padding: 1rem;
+  }
+  
+  .accordion-card > .accordion-content {
+    display: none;
+  }
+  
+  .accordion-card.active > .accordion-content {
+    display: block;
+  }
+  
